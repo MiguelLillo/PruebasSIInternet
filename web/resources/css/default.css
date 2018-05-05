@@ -1,0 +1,45 @@
+body {
+    background-color: #ffffff;
+    font-size: 12px;
+    font-family: Verdana, "Verdana CE",  Arial, "Arial CE", "Lucida Grande CE", lucida, "Helvetica CE", sans-serif;
+    color: #000000;  
+    margin: 10px;
+}
+.cabecera{
+    position: relative;
+    background-image: url(http://39.scoutsdeandalucia.org/wp-content/uploads/2017/09/Grupo-Scout-39-Santo-Angel-Málaga-1440x300-v2.jpg);
+}
+.info{
+    position: absolute;
+    float: left;
+    
+    
+    
+}
+.login{
+    position: relative;
+    padding-right: 5px;
+    float:right;
+    background-color: #036fff;
+}
+h1 {
+    font-family: Arial, "Arial CE", "Lucida Grande CE", lucida, "Helvetica CE", sans-serif;
+    border-bottom: 1px solid #AFAFAF; 
+    font-size:  16px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    color: #D20005;
+}
+
+a:link, a:visited {
+  color: #045491;
+  font-weight : bold;
+  text-decoration: none;
+}
+
+a:link:hover, a:visited:hover  {
+  color: #045491;
+  font-weight : bold;
+  text-decoration : underline;
+}
