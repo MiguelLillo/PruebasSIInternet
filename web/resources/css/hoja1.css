@@ -24,4 +24,12 @@ and open the template in the editor.
 	border-top-right-radius:10px;
 	background-color:skyblue;
 }
+.pulsado{
+	background-color:white;
+	border-bottom-color:white;
 
+}
+.tab:hover{
+    font-weight: bold;
+    
+}
