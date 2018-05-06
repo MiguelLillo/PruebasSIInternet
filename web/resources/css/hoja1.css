@@ -16,4 +16,12 @@ and open the template in the editor.
 	margin-top:0;
 	padding:0;
 }
+.tab{
+	padding:5px;
+	border-style:solid;
+	border-color:black;
+	border-width:1px;
+	border-top-right-radius:10px;
+	background-color:skyblue;
+}
 
