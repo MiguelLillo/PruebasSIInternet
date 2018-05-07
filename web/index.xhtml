@@ -35,8 +35,10 @@
                     <th>Login</th>
                     <tr><td>Usuario</td><td><input></input></td></tr>
                     <tr><td>Contraseña</td><td><h:inputSecret value="#{login.contrasenia}"/></td></tr>
-                    <tr><td><a href="posiblePlantilla.xhtml"><input type="submit" value="Entrar"></input></a>
-                        </td><td><a href="#">Registrate</a></td></tr>
+                    
+                    <tr><td><a href="posiblePlantilla.xhtml">
+                                <h:commandButton value="Entrar" action="#{login.autenticar()}"/></a>
+                    </td><td><a href="#">Registrate</a></td></tr>
                 </h:form>
             </table>
             
