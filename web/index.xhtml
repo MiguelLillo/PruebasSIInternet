@@ -33,11 +33,14 @@
         <div class="login">
             Aqui metemos una tabla y la ponemos a la derecha
             <table>
-                <th>Login</th>
-                <tr><td>Usuario</td><td><input></input></td></tr>
-                <tr><td>Contraseña</td><td><input></input></td></tr>
-                <tr><td><a href="posiblePlantilla.xhtml"><input type="submit" value="Entrar"></input></a></td><td><a href="#">Registrate</a></td></tr>
+                <h:form>
                 
+                    <th>Login</th>
+                    <tr><td>Usuario</td><td><input></input></td></tr>
+                    <tr><td>Contraseña</td><td><h:inputSecret value="#{login.contrasenia}"/></td></tr>
+                    <tr><td><a href="posiblePlantilla.xhtml"><input type="submit" value="Entrar"></input></a>
+                        </td><td><a href="#">Registrate</a></td></tr>
+                </h:form>
             </table>
             
         </div>
