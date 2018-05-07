@@ -12,9 +12,9 @@ body {
 .info{
     position: absolute;
     float: left;
-    
-    
-    
+    border-style:solid;
+    border:1px;
+    border-right-color: black;
 }
 .login{
     position: relative;
