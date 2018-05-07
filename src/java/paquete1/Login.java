@@ -7,11 +7,13 @@ package paquete1;
 
 import java.util.List;
 import java.util.ArrayList;
+import javax.inject.Named;
 
 /**
  *
  * @author Miguel Lillo
  */
+@Named(value="miLogin")
 public class Login {
     private String u;
     private String password;
