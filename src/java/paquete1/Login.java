@@ -13,7 +13,7 @@ import java.util.ArrayList;
  * @author Miguel Lillo
  */
 public class Login {
-    private Usuario u;
+    private String u;
     private String password;
     private List<Usuario> users;
 
@@ -28,11 +28,11 @@ public class Login {
         return "";
     }
 
-    public Usuario getU() {
+    public String getU() {
         return u;
     }
 
-    public void setU(Usuario u) {
+    public void setU(String u) {
         this.u = u;
     }
 

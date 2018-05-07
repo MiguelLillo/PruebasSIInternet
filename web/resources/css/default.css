@@ -20,6 +20,12 @@ body {
     padding-right: 5px;
     float:right;
     background-color: #036fff;
+    border-style: solid;
+    border-bottom-color: #D20005;
+}
+#derecha{
+    border-style: solid;
+    border-bottom-color: #D20005;
 }
 h1 {
     font-family: Arial, "Arial CE", "Lucida Grande CE", lucida, "Helvetica CE", sans-serif;
