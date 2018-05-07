@@ -7,14 +7,15 @@ body {
 }
 .cabecera{
     position: relative;
-    background-image: url(http://39.scoutsdeandalucia.org/wp-content/uploads/2017/09/Grupo-Scout-39-Santo-Angel-Málaga-1440x300-v2.jpg);
+    
 }
 .info{
     position: absolute;
     float: left;
-    border-style:solid;
-    border:1px;
-    border-right-color: black;
+    
+}
+table{
+    border-right: 1px solid #FF66FF;
 }
 .login{
     position: relative;
