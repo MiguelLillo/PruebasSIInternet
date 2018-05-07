@@ -7,6 +7,7 @@ package paquete1;
 
 import java.util.List;
 import java.util.ArrayList;
+import javax.enterprise.context.RequestScoped;
 import javax.inject.Named;
 
 /**
@@ -14,6 +15,7 @@ import javax.inject.Named;
  * @author Miguel Lillo
  */
 @Named(value="miLogin")
+@RequestScoped
 public class Login {
     private String u;
     private String password;
