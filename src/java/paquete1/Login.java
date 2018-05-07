@@ -29,7 +29,7 @@ public class Login {
     
     public String autenticar(){
         
-        return "";
+        return "posiblePlantilla.xhtml";//me da fallos y no entiendo por que
     }
 
     public String getU() {
