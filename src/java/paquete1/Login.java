@@ -6,6 +6,7 @@
 package paquete1;
 
 import java.util.List;
+import java.util.ArrayList;
 
 /**
  *
@@ -15,6 +16,12 @@ public class Login {
     private Usuario u;
     private String password;
     private List<Usuario> users;
+
+    public Login() {
+        users = new ArrayList<>();
+        users.add(new Usuario("Educando", "asdf", Usuario.Rol.EDU));
+        users.add(new Usuario("Admin", "qwer", Usuario.Rol.ADMIN));
+    }
     
     public String autenticar(){
         
