@@ -13,7 +13,7 @@ body {
     position: absolute;
     float: left;
     border-bottom: 1px solid #AFAFAF; 
-    
+    border-right-style: solid;
 }
 table{
     border-right: 1px solid #FF66FF;
